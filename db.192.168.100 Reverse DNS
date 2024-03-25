@@ -1,0 +1,21 @@
+$TTL    604800
+@       IN      SOA     ns1.uacs.edu.mk. root.uacs.edu.mk. (
+                              1         ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                         604800 )       ; Negative Cache TTL
+;
+@       IN      NS      localhost.      ; 
+1.0.0   IN      PTR     localhost.      ; 
+
+@       IN      NS      ns1.uacs.edu.mk.      ; 
+@       IN      NS      ns2.uacs.edu.mk.      ; 
+
+10      IN      PTR      ns1.uacs.edu.mk.      ; 
+20      IN      PTR      ns2.uacs.edu.mk.      ; 
+
+5       IN      PTR      mail.uacs.edu.mk.      ; 
+6       IN      PTR      www.uacs.edu.mk.       ; 
+11      IN      PTR      wrk1.uacs.edu.mk.      ; 
+12      IN      PTR      wrk2.uacs.edu.mk.      ; 
